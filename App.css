@@ -1,0 +1,43 @@
+*{
+  margin: 0 ;
+}
+.app{
+background-color: #fafafa;
+height: 50vh;
+}
+.app_header{
+  background-color: pink;
+  padding:10px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_headerimage{
+  object-fit: contain;
+}
+
+.app_signup{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  
+  
+}
+.app_posts{
+  padding: 30px; 
+}
+
+#butt{
+    margin-top:2em;
+  display: list-item;
+  text-decoration-color: aquamarine;
+  background-color: palevioletred;
+}
+.upload_photo{
+align-items: right;
+}
