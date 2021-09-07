@@ -49,7 +49,7 @@ function App() {
  const [email,setEmail ]=useState('');
  const [password,setPassword]=useState('');
  const [user,setUser]=useState(null);
- condt [toggle,setToggleOpen]=useState();
+ 
 
  const [openupload, setOpenupload] = useState(false);
 
@@ -324,18 +324,7 @@ const signIn =(event)=>{
 
             
         
-         <Button >button to do</Button> 
-
-         <div style ={modalStyle} className={classes.paper} >
-         <Modal>
-           open={toggle}
-           open={toggle}
-         onClose={()=> SetToggleOpen(false)}
-         <h1>open text</h1>
-        
-
-           </Modal>
-           </div>
+      
       
 
         <div>
